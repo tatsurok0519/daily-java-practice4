@@ -5,7 +5,7 @@ public class MyApp32 {
     String password;
     do {
       password = new Scanner(System.in).next();
-    } while (password.equals("aaabbbccc") == false);
+    } while (password.equals("aaaa1111") == false);
     System.out.println("Password matched");
   }
 }
