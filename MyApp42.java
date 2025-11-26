@@ -6,7 +6,7 @@ public class MyApp {
     String signal = new Scanner(System.in).next();
     switch (signal) {
       case "red":
-      
+        System.out.println("Stop");
         break;
     }
   }
