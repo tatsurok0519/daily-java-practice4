@@ -11,8 +11,8 @@ public class MyApp {
       case "yellow":
         System.out.println("Slow down");
         break;
-      case "red":
-        System.out.println("Stop");
+      case "blue":
+        System.out.println("Go");
         break;
     }
   }
