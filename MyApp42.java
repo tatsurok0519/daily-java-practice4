@@ -14,6 +14,9 @@ public class MyApp {
       case "blue":
         System.out.println("Go");
         break;
+      default:
+        System.out.println("Wrong signal");
+        break;
     }
   }
 }
