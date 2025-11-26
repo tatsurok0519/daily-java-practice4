@@ -12,6 +12,7 @@ public class MyApp {
         System.out.println("Slow down");
         break;
       case "blue":
+      case "green":
         System.out.println("Go");
         break;
       default:
