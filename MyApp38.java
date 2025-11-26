@@ -1,0 +1,5 @@
+public class MyApp38 {
+  public static void main(String[] args) {
+
+  }
+}
