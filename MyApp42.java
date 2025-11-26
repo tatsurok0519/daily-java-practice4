@@ -8,6 +8,12 @@ public class MyApp {
       case "red":
         System.out.println("Stop");
         break;
+      case "yellow":
+        System.out.println("Slow down");
+        break;
+      case "red":
+        System.out.println("Stop");
+        break;
     }
   }
 }
