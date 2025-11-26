@@ -8,6 +8,8 @@ public class MyApp {
       System.out.println("A!");
     } else if (score >= 70) {
       System.out.println("B!");
+    } else {
+      System.out.println("C!");
     }
   }
 }
