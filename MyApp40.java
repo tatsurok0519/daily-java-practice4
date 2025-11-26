@@ -6,8 +6,8 @@ public class MyApp {
     int score = new Scanner(System.in).nextInt();
     if (score >= 90) {
       System.out.println("A!");
-    } else if (score >= 70) {
-      System.out.println("B!");
+    } else if (score >= 95) {
+      System.out.println("Super!");
     } else {
       System.out.println("C!");
     }
