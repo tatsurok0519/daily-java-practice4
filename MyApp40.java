@@ -7,9 +7,7 @@ public class MyApp {
     if (score >= 90) {
       System.out.println("A!");
     } else if (score >= 70) {
-      
-    } else {
-      System.out.println("Not A!");
+      System.out.println("B!");
     }
   }
 }
