@@ -5,7 +5,8 @@ public class MyApp {
     int[] scores = {70, -10, 80, 90};
     for (int score: scores) {
       if (score < 0) {
-        break;
+        // break;
+        continue;
       }
       System.out.println(score);
     }
