@@ -7,7 +7,7 @@ public class MyApp {
     //   System.out.println(scores[i]);
     // }
     for (int score: scores) {
-      
+      System.out.println(score);
     }
   }
 }
