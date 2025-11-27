@@ -2,8 +2,10 @@ import java.util.Scanner;
 
 public class MyApp {
   public static void main(String[] args) {
+    String password;
     do {
-
-    } while ();
+      password = new Scanner(System.in).next();
+    } while (password.equals("aaabbbccc") == false);
+    System.out.println("Password matched");
   }
 }
