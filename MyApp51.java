@@ -5,5 +5,6 @@ public class MyApp {
       int sales = 100 * amount;
       System.out.println(sales);
     }
+    System.out.println(sales);
   }
 }
