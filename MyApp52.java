@@ -1,6 +1,6 @@
 public class MyApp {
-  triple() {
-    
+  triple(int num) {
+
   }
 
 
