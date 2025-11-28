@@ -6,8 +6,8 @@ public class MyApp {
     //   System.out.println(sales);
     // }
     // System.out.println(sales);
-    for (int = 0; int < 3; i++){
-      
+    for (int i = 0; i < 3; i++){
+      System.out.println(i);
     }
   }
 }
