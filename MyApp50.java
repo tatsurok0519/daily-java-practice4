@@ -6,5 +6,8 @@ public class MyApp {
     int english = new Scanner(System.in).nextInt();
     System.out.print("Math? ");
     int math = new Scanner(System.in).nextInt();
+    if (english >= 80 && math >= 80) {
+
+    }
   }
 }
