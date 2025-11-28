@@ -7,7 +7,7 @@ public class MyApp {
     System.out.print("Math? ");
     int math = new Scanner(System.in).nextInt();
     if (english >= 80 && math >= 80) {
-
+      System.out.println("A!");
     }
   }
 }
