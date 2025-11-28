@@ -1,6 +1,6 @@
 public class MyApp {
   private static int triple(int num) {
-    return num * 3
+    return num * 3;
   }
 
 
