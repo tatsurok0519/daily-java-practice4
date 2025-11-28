@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class MyApp {
+  public static void main(String[] args) {
+    System.out.print("English? ");
+    int english = new Scanner(System.in).nextInt();
+    System.out.print("Math? ");
+    int math = new Scanner(System.in).nextInt();
+  }
+}
