@@ -10,9 +10,7 @@ public class MyApp {
     System.out.println("Two baby pandas born at our Zoo!");
   }
 
-
   public static void main(String[] args) {
-
     showAd();
     showContent();
     showAd();
