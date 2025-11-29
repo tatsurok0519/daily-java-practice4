@@ -1,5 +1,5 @@
 public class MyApp {
-  isDividable(int a, int b) {
+  private static boolean isDividable(int a, int b) {
     if (a % b == 0) {
       return true;
     } else {
