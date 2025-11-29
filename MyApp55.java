@@ -8,5 +8,9 @@ public class MyApp {
     System.out.println("---------");
     System.out.println("SALE! 50% OFF!");
     System.out.println("---------");
+
+    showAd();
+    showContent();
+    showAd();
   }
 }
