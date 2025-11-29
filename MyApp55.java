@@ -1,5 +1,5 @@
 public class MyApp {
-  showAd() {
+  private static void showAd() {
     System.out.println("---------");
     System.out.println("SALE! 50% OFF!");
     System.out.println("---------");
