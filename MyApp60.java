@@ -1,11 +1,5 @@
 public class MyApp {
-  private static void showThreeTimes(int n) {
-    System.out.println(n);
-    System.out.println(n);
-    System.out.println(n);
-  }
-
-  private static void showThreeTimes(double n) {
+  private static <T> void showThreeTimes(T n) {
     System.out.println(n);
     System.out.println(n);
     System.out.println(n);
