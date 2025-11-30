@@ -6,6 +6,8 @@ public class MyApp {
       } else {
         return false;
       }
+    } else {
+      return false;
     }
 
     // System.out.println("--- end ---");
