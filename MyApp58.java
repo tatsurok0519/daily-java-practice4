@@ -4,6 +4,7 @@ public class MyApp {
   }
 
   public static void main(String[] args) {
+    int num = 100;
     System.out.println(triple(10));
     System.out.println(num);
   }
