@@ -8,7 +8,6 @@ public class MyApp {
   }
 
     // System.out.println("--- end ---");
-  }
 
   public static void main(String[] args) {
     System.out.println(isDividable(10, 2)); // true
