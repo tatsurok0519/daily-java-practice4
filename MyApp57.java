@@ -10,11 +10,12 @@ public class MyApp {
       return false;
     }
 
-    if (a % b == 0) {
-      return true;
-    } else {
-      return false;
-    }
+    // if (a % b == 0) {
+    //   return true;
+    // } else {
+    //   return false;
+    // }
+    return a % b == 0;
   }
 
     // System.out.println("--- end ---");
