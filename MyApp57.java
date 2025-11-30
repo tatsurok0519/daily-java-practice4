@@ -1,6 +1,16 @@
 public class MyApp {
   private static boolean isDividable(int a, int b) {
-    if (b != 0 && a % b == 0) {
+    // if (b != 0 && a % b == 0) {
+    //   return true;
+    // } else {
+    //   return false;
+    // }
+
+    if (b == 0) {
+      return false;
+    }
+
+    if (a % b == 0) {
       return true;
     } else {
       return false;
