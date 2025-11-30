@@ -5,6 +5,6 @@ class User {
 
 public class MyApp {
   public static void main(String[] args) {
-
+    User user1 = new User();
   }
 }
