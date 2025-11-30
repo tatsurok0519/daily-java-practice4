@@ -1,0 +1,9 @@
+public class MyApp {
+  private static int triple(int num) {
+    return num * 3;
+  }
+
+  public static void main(String[] args) {
+    System.out.println(triple(10));
+  }
+}
