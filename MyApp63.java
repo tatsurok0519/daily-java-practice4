@@ -2,9 +2,9 @@ class User {
   String name;
   int score;
 
-  User(String nameFromNew, int scoreFromNew) {
-    this.name = nameFromNew;
-    this.score = scoreFromNew;
+  User(String name, int score) {
+    this.name = name;
+    this.score = score;
   }
 }
 
