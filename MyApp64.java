@@ -19,9 +19,5 @@ public class MyApp {
 
     System.out.println(user1.getUserString());
     System.out.println(user2.getUserString());
-    System.out.println(user1.name);
-    System.out.println(user1.score);
-    System.out.println(user2.name);
-    System.out.println(user2.score);
   }
 }
