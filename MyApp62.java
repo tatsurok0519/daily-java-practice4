@@ -9,5 +9,7 @@ public class MyApp {
     user1.name = "Taro";
     user1.score = 70;
     User user2 = new User();
+    user2.name = "Jiro";
+    user2.score = 80;
   }
 }
