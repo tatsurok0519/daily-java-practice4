@@ -17,6 +17,8 @@ public class MyApp {
     User user1 = new User("Taro", 70);
     User user2 = new User("Jiro", 80);
 
+    System.out.println(user1.getUserString());
+    System.out.println(user2.getUserString());
     System.out.println(user1.name);
     System.out.println(user1.score);
     System.out.println(user2.name);
