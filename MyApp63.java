@@ -2,8 +2,8 @@ class User {
   String name;
   int score;
 
-  User() {
-    
+  User(String nameFromNew, int scoreFromNew) {
+
   }
 }
 
