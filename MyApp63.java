@@ -1,6 +1,10 @@
 class User {
   String name;
   int score;
+
+  User() {
+    
+  }
 }
 
 public class MyApp {
