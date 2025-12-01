@@ -8,7 +8,7 @@ class User {
   }
 
   getUserString() {
-    return user1.name + ", " + user1.score;
+    return this.name + ", " + this.score;
   }
 }
 
