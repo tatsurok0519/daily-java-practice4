@@ -11,5 +11,10 @@ public class MyApp {
     User user2 = new User();
     user2.name = "Jiro";
     user2.score = 80;
+
+    System.out.println(user1.name);
+    System.out.println(user1.score);
+    System.out.println(user2.name);
+    System.out.println(user2.score);
   }
 }
