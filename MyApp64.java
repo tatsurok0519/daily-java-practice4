@@ -7,7 +7,7 @@ class User {
     this.score = score;
   }
 
-  getUserString() {
+  String getUserString() {
     return this.name + ", " + this.score;
   }
 }
