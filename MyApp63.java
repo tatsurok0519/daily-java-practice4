@@ -3,7 +3,8 @@ class User {
   int score;
 
   User(String nameFromNew, int scoreFromNew) {
-
+    user1.name = nameFromNew;
+    user1.score = scoreFromNew;
   }
 }
 
