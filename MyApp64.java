@@ -6,6 +6,10 @@ class User {
     this.name = name;
     this.score = score;
   }
+
+  getUserString() {
+    
+  }
 }
 
 public class MyApp {
