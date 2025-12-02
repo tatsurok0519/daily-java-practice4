@@ -10,6 +10,10 @@ class User {
   String getUserString() {
     return this.name + ", " + this.score;
   }
+
+  setScore(int score) {
+    this.score = score;
+  }
 }
 
 public class MyApp {
