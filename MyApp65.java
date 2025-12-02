@@ -14,6 +14,7 @@ class User {
   setScore(int score) {
     if (score < 0 || score > 100) {
       System.out.println("Invalid score!");
+      return;
     }
     this.score = score;
   }
