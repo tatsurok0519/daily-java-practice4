@@ -1,6 +1,6 @@
 class User {
   String name;
-  int score;
+  private int score;
 
   User(String name, int score) {
     this.name = name;
