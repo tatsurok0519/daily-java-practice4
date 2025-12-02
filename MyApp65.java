@@ -17,7 +17,8 @@ public class MyApp {
     User user1 = new User("Taro", 70);
     User user2 = new User("Jiro", 80);
 
-    user1.score = 900;
+    // user1.score = 900;
+    user1.setScore(900);
 
     System.out.println(user1.getUserString());
     System.out.println(user2.getUserString());
