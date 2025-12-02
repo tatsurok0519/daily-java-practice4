@@ -18,6 +18,10 @@ class User {
     }
     this.score = score;
   }
+
+  int getScore /() {
+    return this.score;
+  }
 }
 
 public class MyApp {
