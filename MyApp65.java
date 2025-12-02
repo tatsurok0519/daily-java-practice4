@@ -11,7 +11,7 @@ class User {
     return this.name + ", " + this.score;
   }
 
-  setScore(int score) {
+  void setScore(int score) {
     if (score < 0 || score > 100) {
       System.out.println("Invalid score!");
       return;
