@@ -19,7 +19,7 @@ class User {
     this.score = score;
   }
 
-  int getScore /() {
+  int getScore () {
     return this.score;
   }
 }
@@ -31,7 +31,7 @@ public class MyApp {
 
     // user1.score = 900;
     // user1.setScore(900);
-    System.out.println(user1.score);
+    System.out.println(user1.getScore());
 
     System.out.println(user1.getUserString());
     System.out.println(user2.getUserString());
