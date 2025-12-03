@@ -8,7 +8,7 @@ class User {
   }
 
   String getUserString() {
-    return this.name + ", " + this.score;
+    return this.name + ", " + this.score + ", " + this.getResult();
   }
 
   // setter
@@ -25,7 +25,7 @@ class User {
     return this.score;
   }
 
-  getResult() {
+  String getResult() {
     if (this.score >= 80) {
       return "Pass";
     } else {
