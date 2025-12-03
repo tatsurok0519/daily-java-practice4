@@ -24,6 +24,14 @@ class User {
   int getScore() {
     return this.score;
   }
+
+  getResult() {
+    if (this.score >= 80) {
+      return "Pass";
+    } else {
+      return "Fail";
+    }
+  }
 }
 
 public class MyApp {
