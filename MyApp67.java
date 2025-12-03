@@ -33,5 +33,7 @@ public class MyApp {
 
     System.out.println(user1.getUserString());
     System.out.println(user2.getUserString());
+    System.out.println(user1.getResult());
+    System.out.println(user2.getResult());
   }
 }
