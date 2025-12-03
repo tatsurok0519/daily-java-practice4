@@ -25,7 +25,7 @@ class User {
     return this.score;
   }
 
-  String getResult() {
+  private String getResult() {
     if (this.score >= 80) {
       return "Pass";
     } else {
