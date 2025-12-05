@@ -5,15 +5,15 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 18 * * *"
-    - cron: "0 19 * * *"
-    - cron: "0 20 * * *"
-    - cron: "0 21 * * *"
-    - cron: "0 22 * * *"
-    - cron: "0 23 * * *"
-    - cron: "0 0 * * *"
-    - cron: "0 1 * * *"
-    - cron: "0 2 * * *"
+    - cron: "0 3 * * *"   # JST 12:00
+    - cron: "0 4 * * *"   # JST 13:00
+    - cron: "0 5 * * *"   # JST 14:00
+    - cron: "0 6 * * *"   # JST 15:00
+    - cron: "0 7 * * *"   # JST 16:00
+    - cron: "0 8 * * *"   # JST 17:00
+    - cron: "0 9 * * *"   # JST 18:00
+    - cron: "0 10 * * *"  # JST 19:00
+    - cron: "0 11 * * *"  # JST 20:00
 
 jobs:
   auto-commit:
